@@ -17,3 +17,10 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 ## Resources 
 
 ## Sample
+> GET api/v1/coins/Bitcoin/value
+> >{
+> >    "Id" : "1",
+> >    "Name" : "Bitcoin",
+> >    "Value" : ["USD", "60000"],
+> >    "Time" : "2024/03/18/1829"
+> >}
