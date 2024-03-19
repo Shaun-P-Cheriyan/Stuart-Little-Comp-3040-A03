@@ -15,7 +15,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 3040Crypto's Crypto Tracker
  -  GET api/v1/coins/list/{all}
 
-30040Crypto's Currency Tracker
+3040Crypto's Currency Value Tracker
  - GET api/v1/coins/{coin-name}/value
 ## Resources 
 3040Crypto's Crypto Tracker
