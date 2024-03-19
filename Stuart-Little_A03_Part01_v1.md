@@ -13,7 +13,11 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
    These are valuable to the company as they provide our users with the convenience of up-to-date information on crypto and physical currencies.
 
 ## Endpoints 
+3040Crypto's Crypto Tracker
+ -  GET api/v1/coins/list/{all}
 
+30040Crypto's Currency Tracker
+ - GET api/v1/coins/{coin-name}/value
 ## Resources 
 
 ## Sample
