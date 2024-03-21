@@ -5,17 +5,17 @@ The following is a pitch for the introduction of APIs into 3040Crypto's portfoli
 ## API Description
 We are proposing the inclusion of two APIs to add to our services. They are detailed below.
  - 3040Crypto's Crypto Tracker
-   - Crypto Tracker will list a number of crypto currencies and will display their current prices in USD.
- - 3040Crypto's Currency Tracker
-   - Currency Tracker will list a number of world currencies and will display their current exchange rate to USD.
+   - Crypto Tracker will list a number of crypto currencies.
+ - 3040Crypto's Crypto Value Tracker
+   - Crypto value Tracker will display a specific coin's current exchange rate to USD.
    
-   These are valuable to the company as they provide our users with the convenience of up-to-date information on crypto and physical currencies.
+   These are valuable to the company as they provide our users with the convenience of up-to-date information on crypto currencies.
 
 ## Endpoints 
-3040Crypto's Crypto Value Tracker
+3040Crypto's Crypto Tracker
  -  GET api/v1/coins/list/{all}
 
-3040Crypto's Currency Value Tracker
+3040Crypto's Crypto Value Tracker
  - GET api/v1/coins/{coin-name}/value
 ## Resources 
 3040Crypto's Crypto Tracker
@@ -23,7 +23,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 >	    "Currencies" : [ ] <br>
 > }
 
-3040Crypto's Currency Tracker
+3040Crypto's Crypto Value Tracker
 >{ <br>
 >		  "Id" : , <br>
 >		  "Name" : , <br>
