@@ -19,23 +19,27 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
  - GET api/v1/coins/value
 ## Resources 
 3040Crypto's Crypto Tracker
-> { <br>
->	    "Currencies" : [ ] <br>
-> }
-
+~~~
+{
+    "Currencies" : [ ] <br>
+}
+~~~
 3040Crypto's Crypto Value Tracker
->{ <br>
->		  "Id" : , <br>
->		  "Name" : , <br>
->		  "Value" : [ ] , <br>
->    "Time" : <br>
->	}
-
+```
+{
+    "Id" : , 
+    "Name" : ,
+    "Value" : [ ] ,
+    "Time" : 
+}
+```
 ## Sample
 GET api/v1/coins/value?Name=Bitcoin
->{ <br>
->    "Id" : "1", <br>
->    "Name" : "Bitcoin", <br> 
->    "Value" : ["USD", "60000"], <br> 
->    "Time" : "2024/03/18/182935" <br>
->}
+```
+{ 
+    "Id" : "1", 
+    "Name" : "Bitcoin", 
+    "Value" : ["USD", "60000"],  
+    "Time" : "2024/03/18/182935" 
+}
+```
