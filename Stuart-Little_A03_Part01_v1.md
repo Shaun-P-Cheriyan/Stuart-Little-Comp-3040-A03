@@ -21,7 +21,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 3040Crypto's Crypto Tracker
 ~~~
 {
-    "Currencies" : [ ] <br>
+    "Currencies" : [ ]
 }
 ~~~
 3040Crypto's Crypto Value Tracker
