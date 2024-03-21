@@ -1,6 +1,6 @@
 # API Documentation
 
-The following is a pitch for the introduction of APIs into 3040Crypto's portfolio. The following will be provided: a description of the API for context, a list of API endpoints, a description of resources in JSON format, and a sample request and output.
+The following is a pitch for the introduction of APIs into 3040Crypto's portfolio. Details will be provided, such as: a description of the API for context, a list of API endpoints, a description of resources in JSON format, and a sample request and output.
 
 ## API Description
 We are proposing the inclusion of two APIs to add to our services. They are detailed below.
