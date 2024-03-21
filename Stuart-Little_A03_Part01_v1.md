@@ -13,10 +13,10 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 
 ## Endpoints 
 3040Crypto's Crypto Tracker
- -  GET api/v1/coins/list/{all}
+ -  GET api/v1/coins/list
 
 3040Crypto's Crypto Value Tracker
- - GET api/v1/coins/{coin-name}/value
+ - GET api/v1/coins/value
 ## Resources 
 3040Crypto's Crypto Tracker
 > { <br>
