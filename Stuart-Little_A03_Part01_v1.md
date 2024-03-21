@@ -14,9 +14,12 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 ## Endpoints 
 3040Crypto's Crypto Tracker
  -  GET api/v1/coins/list
+ -  Parameter : Num 
 
 3040Crypto's Crypto Value Tracker
  - GET api/v1/coins/value
+ - Parameter : Name
+
 ## Resources 
 3040Crypto's Crypto Tracker
 ~~~
