@@ -14,11 +14,13 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 ## Endpoints 
 3040Crypto's Crypto Tracker
  -  GET api/v1/coins/list
- -  Parameter : Num 
+ -  Parameter : Num (Used to determine the number of cryptocurrencies to be displayed)
+ -  Example Paramter Values : all, 3, 5
 
 3040Crypto's Crypto Value Tracker
  - GET api/v1/coins/value
- - Parameter : Name
+ - Parameter : Name (Used to determine the coin needed to be displayed)
+ - Example Paramter Values : Bitcoin, Ethereum
 
 ## Resources 
 3040Crypto's Crypto Tracker
