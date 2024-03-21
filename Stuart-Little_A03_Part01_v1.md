@@ -32,7 +32,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 >	}
 
 ## Sample
-GET api/v1/coins/Bitcoin/value
+GET api/v1/coins/value?Name=Bitcoin
 >{ <br>
 >    "Id" : "1", <br>
 >    "Name" : "Bitcoin", <br> 
