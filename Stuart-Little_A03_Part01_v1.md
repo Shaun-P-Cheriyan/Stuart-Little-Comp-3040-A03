@@ -23,7 +23,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 >	    "Currencies" : [ ] <br>
 > }
 
-30040Crypto's Currency Tracker
+3040Crypto's Currency Tracker
 >{ <br>
 >		  "Id" : , <br>
 >		  "Name" : , <br>
