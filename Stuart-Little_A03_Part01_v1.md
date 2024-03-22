@@ -15,7 +15,7 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 3040Crypto's Crypto Tracker
  -  GET api/v1/coins/list
  -  Parameter : Num (Used to determine the number of cryptocurrencies to be displayed)
- -  Example Paramter Values : all, 3, 5
+ -  Example Paramter Values : 0, 3, 5 (Here, input 0 corresponds to displaying all the crypto currencies) 
 
 3040Crypto's Crypto Value Tracker
  - GET api/v1/coins/value
@@ -39,6 +39,8 @@ We are proposing the inclusion of two APIs to add to our services. They are deta
 }
 ```
 ## Sample
+3040Crypto's Crypto Value Tracker
+
 GET api/v1/coins/value?Name=Bitcoin
 ```
 { 
